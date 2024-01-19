@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <!--CABECERA-->
+    <header>
+        <a href="../index.html" class="logo">
+            <img src="img/logo.png" alt="">
+        </a>
+        <div class="navigation">
+            <ul class="menu">
+                <div class="close-btn">
+                </div>
+                <li class="menu-item"><a href="./index.html">Inicio</a></li>
+                <li class="menu-item"><a href="./paginas/Sobre-nosotros/index.html">Sobre nosotros</a></li>
+                <li class="menu-item">
+                    <a class="sub-btn" href="#">Servicio de Transporte <i class="fas fa-angle-down"></i> </a>
+                    <ul class="sub-menu">
+                        <li class="sub-item"><a href="./paginas/Servicio-Transporte/Servicio-Traslado/index.html">Servicio de Traslado</a> </li>
+                        <li class="sub-item"><a href="./paginas/Servicio-Transporte/Servicio-Especiales/index.html">Servicio Especiales</a> </li>
+                        <li class="sub-item"><a href="./paginas/Servicio-Transporte/Servicio-Traslado/index.html">Servicio City Tour</a> </li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a class="sub-btn green" href="#">Destino Turistico <i class="fas fa-angle-down"></i> </a>
+                    <ul class="sub-menu">
+                        <li class="sub-item1 "><a href="./paginas/Destino-Turistico/Nacionales/index.html">Destino Nacionales</a> </li>
+                        <li class="sub-item1 "><a href="./paginas/Destino-Turistico/FullDay/index.html">Destino FullDays</a> </li>
+                        <li class="sub-item1 "><a href="./paginas/Destino-Turistico/Escolar/index.html">Turismo Escolar</a> </li>
+                    </ul>
+                </li>
+                <li class="menu-item"><a style="color: #469DFF;" href="./paginas/Contacto/index.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="menu-btn"></div>
+    </header>
+
+
+    <!--SLIDER-->
+    <div class="slider">
+        <div class="list">
+            <div class="item">
+                <img src="img/55.jpg">
+            </div>
+            <div class="item">
+                <img src="img/22.jpg">
+            </div>
+            <div class="item">
+                <img src="img/33.jpg">
+            </div>
+            <div class="item">
+                <img src="img/44.avif">
+            </div>
+            <div class="item">
+                <img src="img/88.jpg">
+            </div>  
+        </div>
+
+        <!--button prev and next-->
+        <div class="buttons">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!--dots (if 5 items => 5 dots)-->
+        <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <!--INFO-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <video src="img/video1.mp4" muted autoplay loop class="video"></video>
+        </div>
+        <div class="about-text">
+            <span>POR QUÉ ELEGIRNOS?</span>
+            <h2>Servicio Turistico Soria's</h2>
+            <p>"Elige nuestro servicio de transporte turístico para vivir una experiencia única. Nos destacamos por la calidad, seguridad y comodidad en cada viaje. 
+                Nuestro compromiso es hacer que tus desplazamientos sean inolvidables, proporcionándote un servicio confiable y dedicado".</p> 
+        </div>
+    </section>
+
+    <!-- OUR SERVICES -->
+    <div class="our-services">
+        <div class="main-services">
+            <div class="inner-service">
+                <div class="inner-icons">
+                    <img src="img/seguridad.png">
+                </div>
+                <h2 style="color: #4FC33C;">Seguridad</h2>
+                <p> "Su seguridad es nuestra prioridad. Viaje con confianza en nuestro servicio de transporte, con conductores capacitados y vehículos bien mantenidos para un viaje sin preocupaciones."</p>
+        
+            </div>
+
+            <div class="inner-service">
+                <div class="inner-icons">
+                    <img src="img/reloj.png">
+                </div>
+                <h2 style="color: #EA844A;">Puntualidad</h2>
+                <p>
+                    "Puntualidad garantizada en cada viaje. Viaje con confianza en nuestro servicio de transporte, donde su tiempo es nuestra prioridad."</p>
+        
+            </div>
+
+            <div class="inner-service">
+                <div class="inner-icons">
+                    <img src="img/comodidad.png">
+                </div>
+                <h2 style="color: #57CAC3;">Comodidad</h2>
+                <p>
+                    "Viaje con nosotros y experimente la combinación perfecta de puntualidad y comodidad. Nuestro servicio de transporte se compromete a ofrecer trayectos cómodos y a tiempo para satisfacer sus necesidades de viaje."</p>
+        
+            </div>
+
+            <div class="inner-service">
+                <div class="inner-icons">
+                    <img src="img/agil.png">
+                </div>
+                <h2 style="color: #EE6FAC;">Flexibilidad</h2>
+                <p>"Flexibilidad que se ajusta a su ritmo. Nuestro servicio de transporte está diseñado para adaptarse a sus horarios, brindándole la libertad de viajar con comodidad y conveniencia."</p>
+        
+            </div>
+        </div>
+    </div>
+
+
+    <!--CONTENIDO-->
+    <!--Servicio de Transporte-->
+    <div class="our-services">
+        <h1 id="Servicio-Transporte">Servicio de <span>Transporte</span></h1>
+    </div>
+    <div class="container">
+        <main class="grid">
+            <article>
+                <img src="img/carro.jpg">
+                <div class="text">
+                    <h3>Servicio Traslado</h3>
+                    <p>Nos preocupamos por tu comodidad y seguridad, por eso te ofrecemos el servicio de recojo desde el aeropuerto o desde la 
+                        terminal de buses.</p>
+                    <a href="./paginas/Servicio-Transporte/Servicio-Traslado/index.html"><button>Ver mas</button></a>
+                </div>
+            </article>
+
+            <article>
+                <img src="img/bus1.webp">
+                <div class="text">
+                    <h3>Servicio Especiales</h3>
+                    <p>Contamos con una amplia flota de buses, minibuses, sprinter, van para servir sus requerimientos de traslado de personal 
+                        de su organización.</p>
+                    <a href="./paginas/Servicio-Transporte/Servicio-Especiales/index.html"><button>Ver mas</button></a>
+                </div>
+            </article>
+ 
+            <article>
+                <img src="img/city-tour.jpg">
+                <div class="text">
+                    <h3>Servicio City Tour</h3>
+                    <p>Nos encargamos de realizar un Tours Especializado según el requerimiento del cliente, pueden realizarse los traslados a 
+                        diversos puntos de la gran lima.</p>
+                    <a href="./paginas/Servicio-Transporte/Servicio-Citytour/index.html"><button>Ver mas</button></a>
+                </div>
+            </article>
+        </main>
+    </div>
+
+    <!--Destino Turistico-->
+    <div class="our-services" style="margin-top: 100px;">
+        <h1 id="Destino-Turistico">Destino <span style="color: #36CF61;">Turistico</span></h1>
+    </div>
+    <div class="container">
+        <main class="grid">
+            <article>
+                <img src="img/nacional.jpg">
+                <div class="text">
+                    <h3>Destino Nacionales</h3>
+                    <p>"Descubre lo mejor con TURISMO SORIAS que tenemos para ti y mucho mas para que puedas disfrutar de un viaje con todas las medidas necesarias".</p>
+                    <a href="./paginas/Destino-Turistico/Nacionales/index.html"><button style="background: #36CF61;">Ver mas</button></a>
+                </div>
+            </article>
+
+            <article>
+                <img src="img/fulldays1.jpg">
+                <div class="text">
+                    <h3>Destino FullDays</h3>
+                    <p>"Descubre lo mejor con TURISMO SORIAS que tenemos para ti y mucho mas para que puedas disfrutar de un viaje con todas las medidas necesarias.</p>
+                    <a href="./paginas/Destino-Turistico/FullDay/index.html"><button style="background: #36CF61;">Ver mas</button></a>
+                </div>
+            </article>
+
+            <article>
+                <img src="img/bus.webp">
+                <div class="text">
+                    <h3>Turismo Escolar</h3>
+                    <p>"Descubre lo mejor con TURISMO SORIAS que tenemos para ti y mucho mas para que puedas disfrutar de un viaje con todas las medidas necesarias.</p>
+                    <a href="./paginas/Destino-Turistico/Escolar/index.html"><button style="background: #36CF61;">Ver mas</button></a>
+                </div>
+            </article>
+        </main>
+    </div>
+
+    <!--Nuestros Clientes-->
+    <div class="our-services" style="margin-top: 120px;">
+        <h1>Nuestros <span style="color: #E33BD3;">Clientes</span></h1>
+    </div>
+    <div class="slider1">
+        <div class="slide-track">
+            <div class="slide">
+                <a href=""><img src="./img/logo1.jpg"></a>
+            </div>
+            <div class="slide">
+                <a href=""><img src="./img/logo2.png"></a>
+            </div>
+            <div class="slide">
+                <a href=""><img src="./img/logo3.png"></a>
+            </div>
+            <div class="slide">
+                <a href=""><img src="./img/logo4.png"></a>
+            </div>
+            <div class="slide">
+                <a href=""><img src="./img/logo5.png"></a>
+            </div>
+            <div class="slide">
+                <a href=""><img src="./img/logo6.jpg"></a>
+            </div>
+            <div class="slide">
+                <a href=""><img src="./img/logo7.png"></a>
+            </div>
+            <div class="slide">
+                <a href=""><img src="./img/logo8.jpg"></a>
+            </div>
+            <div class="slide">
+                <a href=""><img src="./img/logo9.png"></a>
+            </div>
+            <div class="slide">
+                <a href=""><img src="./img/logo10.jpg"></a>
+            </div>
+            <div class="slide">
+                <a href=""><img src="./img/logo11.jpeg"></a>
+            </div>
+            <div class="slide">
+                <a href=""><img src="./img/logo1.jpg"></a>
+            </div>
+            <div class="slide">
+                <a href=""><img src="./img/logo2.png"></a>
+            </div>
+            <div class="slide">
+                <a href=""><img src="./img/logo3.png"></a>
+            </div>
+            <div class="slide">
+                <a href=""><img src="./img/logo4.png"></a>
+            </div>
+            <div class="slide">
+                <a href=""><img src="./img/logo5.png"></a>
+            </div>
+            <div class="slide">
+                <a href=""><img src="./img/logo6.jpg"></a>
+            </div>
+            <div class="slide">
+                <a href=""><img src="./img/logo7.png"></a>
+            </div>
+            <div class="slide">
+                <a href=""><img src="./img/logo8.jpg"></a>
+            </div>
+            <div class="slide">
+                <a href=""><img src="./img/logo9.png"></a>
+            </div>
+            <div class="slide">
+                <a href=""><img src="./img/logo10.jpg"></a>
+            </div>
+            <div class="slide">
+                <a href=""><img src="./img/logo11.jpeg"></a>
+            </div>
+        </div>
+    </div>
+
+    <!--Banner-->
+    <div class="banner">
+        <div class="conten">
+            <h3>Empecemos la Aventura</h3>
+            <p>"¡Comencemos la aventura juntos! Descubre nuevos horizontes y <br> experiencias emocionantes con nosotros."</p>
+            <a href="./paginas/Contacto/index.html" class="btn">Contactanos</a>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="footer">
+            <div class="wrapper">
+                <div class="footer-widget">
+                    <a href="./index.html">
+                        <img src="./img/logo.png"" class="logo">
+                    </a>
+                    <p class="desc">
+                        "Expertos en transporte turístico, personal, full days, city tours, visitas educativas, y más, 
+                        nuestro equipo combina amplia experiencia para ofrecer servicios de calidad."
+                    </p>
+                    <ul class="socials">
+                        <li>
+                            <a href="https://www.facebook.com/turismosorias" target="_blank">
+                                <i class="fa-brands fa-facebook-f" style="color: white;"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.tiktok.com/@turismo_sorias" target="_blank">
+                                <i class="fa-brands fa-tiktok" style="color: white;"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/turismo_sorias/" target="_blank">
+                                <i class="fa-brands fa-instagram" style="color: white;"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-widget">
+                    <h6>Enlaces</h6>
+                    <ul class="links">
+                        <li><a href="./index.html">Inicio</a></li>
+                        <li><a href="./paginas/Sobre-nosotros/index.html">Sobre nosotros</a></li>
+                        <li><a href="#">Servicio de Transporte</a></li>
+                        <li><a href="#">Destino Turistico</a></li>
+                        <li><a href="./paginas/Contacto/index.html">Contactanos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-widget">
+                    <h6>Servicios</h6>
+                    <ul class="links">
+                        <li><a href="./paginas/Servicio-Transporte/Servicio-Traslado/index.html">Servicio de transporte</a></li>
+                        <li><a href="./paginas/Servicio-Transporte/Servicio-Especiales/index.html">Servicio personalizado</a></li>
+                        <li><a href="./paginas/Servicio-Transporte/Servicio-Citytour/index.html">Servicio CityTour</a></li>
+                        <li><a href="./paginas/Destino-Turistico/Nacionales/index.html">Destinos Nacionales</a></li>
+                        <li><a href="./paginas/Destino-Turistico/FullDay/index.html">Destinos FullDay</a></li>
+                        <li><a href="./paginas/Destino-Turistico/Escolar/index.html">Turismo Escolar</a></li>
+                    </ul>
+                </div>
+                <div class="footer-widget">
+                    <h6>Contacto</h6>
+                    <ul class="links">
+                        <li><i class="fa-solid fa-envelope"></i><a href="#" target="_blank" style="padding-left: 1rem; font-size: 1rem;">ventas@turismosorias.com</a></li>
+                        <li><i class="fa-solid fa-phone"></i><a href="https://wa.me/+51943532583" target="_blank" style="padding-left: 1rem;">+51 943532583</a> / <a href="https://wa.me/+51987115804">+51 987115804</a></li>
+                        <li><i class="fa-solid fa-location-dot"></i><a href="https://maps.app.goo.gl/VfiG9z8q1XZm8n8E9" target="_blank" style="padding-left: 1rem";>Calle 20 Mza. S Lote. 20 Asoc. 
+                            San Carlos - Santa Anita</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright-wrapper">
+                <p>Copyright © 2024 - Todos los derechos Reservados Empresa de Transporte y Turismo Etours Soria’s <br>
+                    Diseñado por:<a href="#" target="blank">Alonso Q.F & Jesus R.C</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="whatsapp-container" id="whatsappContainer">
+        <a href="https://wa.me/+51943532583" target="_blank" class="whatsapp-logo" id="whatsappLogo">
+            <img src="wsp.webp" alt="WhatsApp Logo">
+        </a>
+        <div class="tooltip" id="tooltip">¿Desea realizar una cotización? ¡Escríbanos!</div>
+    </div>
+
+    <!--JAVASCRIPT HEADER-->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".sub-btn").click(function(){
+                $(this).next(".sub-menu").slideToggle();
+            });
+        });
+
+        var menu = document.querySelector(".menu");
+        var menuBtn = document.querySelector(".menu-btn");
+        var closeBtn = document.querySelector(".close-btn");
+
+        menuBtn.addEventListener("click", () => {
+            menu.classList.add("active");
+        });
+
+        closeBtn.addEventListener("click", () => {
+            menu.classList.remove("active");
+        }); 
+    </script>
+
+    <script>
+         ScrollReveal({ 
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 400
+        });
+
+        ScrollReveal().reveal('.slider', { delay: 400 });
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
