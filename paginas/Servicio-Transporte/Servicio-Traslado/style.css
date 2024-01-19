@@ -534,6 +534,14 @@ header .navigation .menu{
     }
 }
 
+@media (max-width:376px){
+    .box{
+        width: 240px;
+        height: 200px;
+        margin: 0 10px 10px;
+    }
+}
+
 /*------------------------INFO CARROS---------------------------*/
 .contact-body {
     width: 100%;
