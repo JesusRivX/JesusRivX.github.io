@@ -832,10 +832,6 @@ footer{
     transition: all 0.3s ease-out;
 }
 
-.wrapper .footer-widget .links li a:hover{
-    color: #037ef3;
-}
-
 .copyright-wrapper{
     padding: 20px 0;
     border-top: 1px solid rgba(88, 89, 120, 0.4);
