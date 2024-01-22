@@ -851,10 +851,6 @@ footer{
     transition: all 0.3s ease-out;
 }
 
-.copyright-wrapper p a:hover{
-    color: #037ef3;
-}
-
 @media(max-width:992px){
     .footer{
         max-width: 960px;
