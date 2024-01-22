@@ -803,7 +803,7 @@ footer{
     width: 44px;
     height: 44px;
     margin-right: 10px;
-    background-color: rgba(3, 127, 243, 0.5);
+    background-color: rgb(0, 0, 0);
     border-radius: 50%;
     font-size: 20px;
     text-decoration: none;
@@ -811,10 +811,6 @@ footer{
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease-out;  
-}
-
-.wrapper .footer-widget .socials li a:hover{
-    background-color: #29CEB0;
 }
 
 .wrapper .footer-widget h6{
