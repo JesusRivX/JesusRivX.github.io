@@ -676,7 +676,7 @@ header .navigation .menu{
 /*---------------Banner---------------*/
 .banner{
     margin-top: 100px;
-    background: linear-gradient(rgba(17,17,17,.7),rgba(17,17,17,.7)), url(img/banner.jpg) no-repeat;
+    background: linear-gradient(rgba(17,17,17,.7),rgba(17,17,17,.7)), url(img/banner.png) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
