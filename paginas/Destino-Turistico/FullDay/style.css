@@ -210,19 +210,12 @@ header .navigation .menu{
     margin-bottom: 1rem;
 }
 
-.text_section span{
-    font-size: 5.5rem;
-    font-weight: bold;
-    color: var(--secondary);
-}
-
 .btn_group{
     display: flex;
     align-items: center;
     column-gap: 1.7rem;
     
 }   
-
 
 /*------------------------------CONTENIDO-------------------------------*/
 /*---------Servicio Transporte y Destino Turistico-------------*/
@@ -1057,6 +1050,12 @@ footer{
     .conteiner1 .mycard .cdetail .c{
         left: -6%;
         top: 90%;
+    }
+}
+
+@media (max-width: 376px ){
+    .text_section{
+        font-size: 2.8rem;
     }
 }
 
