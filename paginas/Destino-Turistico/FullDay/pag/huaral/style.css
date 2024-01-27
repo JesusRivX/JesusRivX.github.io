@@ -401,7 +401,7 @@ header .navigation .menu{
 
 /*---------------------------BG------------------------------*/
 .bg {
-    background: var(--linear-background), url("./img/img3.jpg") no-repeat;
+    background: var(--linear-background), url("./img/des.webp") no-repeat;
     background-size: cover;
     background-position: center;
     height: 45vh;
@@ -580,7 +580,7 @@ header .navigation .menu{
 
 .text-content {
     text-align: start;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     width: 40rem;
 
 }
@@ -690,7 +690,7 @@ header .navigation .menu{
 
 .info-text fieldset:nth-child(5) {
     margin-top: -7rem;
-    height: 39rem;
+    height: 37rem;
 }
 
 .info-text legend {
