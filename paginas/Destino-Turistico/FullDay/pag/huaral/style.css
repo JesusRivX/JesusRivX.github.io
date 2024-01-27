@@ -802,7 +802,7 @@ header .navigation .menu{
 
 }
  
-@media (max-width: 426px) {
+@media (max-width: 425px) {
     .info-text fieldset:nth-child(5) {
         width: 400px;
         margin-top: 1rem;
