@@ -9,7 +9,7 @@
 }
 
 body{
-    background: url(img/bg2.avif) no-repeat;
+    background: rgba(241,248,255,255);
     background-size: cover;
     background-position: center;
     overflow-x: hidden;
