@@ -675,7 +675,7 @@ header .navigation .menu{
 }
 
 .info-text fieldset:nth-child(2) {
-    height: 28rem;
+    height: 30rem;
     text-align: center;
 }
 
@@ -690,7 +690,7 @@ header .navigation .menu{
 
 .info-text fieldset:nth-child(5) {
     margin-top: -7rem;
-    height: 39rem;
+    height: 37rem;
 }
 
 .info-text legend {
@@ -807,45 +807,55 @@ header .navigation .menu{
  
 @media (max-width: 426px) {
     .info-text fieldset:nth-child(5) {
-        width: 400px;
+        width: 370px;
+        height: 72rem;
         margin-top: 1rem;
     }
 
     .info-text fieldset:nth-child(2) {
         margin-top: -8rem;
     }
+
+    .info-text fieldset:nth-child(1),.info-text fieldset:nth-child(2),.info-text fieldset:nth-child(3),
+    .info-text fieldset:nth-child(4), .info-text fieldset:nth-child(5) {
+        width: 370px;
+    }
+
+    .info-text fieldset:nth-child(3) {
+        height: 15rem;
+    }
 }
 
 
 @media (max-width: 376px) {
     .info-text fieldset:nth-child(1) {
-        width: 350px;
+        width: 320px;
         height: 14rem;
         margin: 0 0 0 10px;
     }
 
     .info-text fieldset:nth-child(2) {
-        width: 350px;
+        width: 320px;
         height: 32rem;
         margin-left: 10px;
         margin-top: -9rem;
     }
 
     .info-text fieldset:nth-child(3) {
-        width: 350px;
+        width: 320px;
         height: 14rem;
         margin-left: 10px;
     }
 
     .info-text fieldset:nth-child(4) {
-        width: 350px;
+        width: 320px;
         height: 20rem;
         margin-left: 10px;
     }
 
     .info-text fieldset:nth-child(5) {
-        width: 350px;
-        height: 80rem;
+        width: 320px;
+        height: 84rem;
         margin-left: 10px;
     }
 }
