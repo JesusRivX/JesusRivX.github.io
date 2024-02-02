@@ -765,7 +765,7 @@ header .navigation .menu{
 
     .info-text fieldset:nth-child(5) {
         width: 500px;
-        height: 58rem;
+        height: 45rem;
         grid-row: auto;
         grid-column: auto;
         margin-top: 0rem;
@@ -808,7 +808,7 @@ header .navigation .menu{
 @media (max-width: 426px) {
     .info-text fieldset:nth-child(5) {
         width: 370px;
-        height: 69rem;
+        height: 57rem;
         margin-top: 1rem;
     }
 
@@ -855,7 +855,7 @@ header .navigation .menu{
 
     .info-text fieldset:nth-child(5) {
         width: 320px;
-        height: 80rem;
+        height: 62rem;
         margin-left: 10px;
     }
 }

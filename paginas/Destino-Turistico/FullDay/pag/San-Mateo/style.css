@@ -9,7 +9,7 @@
 }
 
 body{
-    background: url(img/bg2.avif) no-repeat;
+    background: url() no-repeat;
     background-size: cover;
     background-position: center;
     overflow-x: hidden;
@@ -808,7 +808,7 @@ header .navigation .menu{
 @media (max-width: 426px) {
     .info-text fieldset:nth-child(5) {
         width: 370px;
-        height: 69rem;
+        height: 63rem;
         margin-top: 1rem;
     }
 
@@ -855,7 +855,7 @@ header .navigation .menu{
 
     .info-text fieldset:nth-child(5) {
         width: 320px;
-        height: 80rem;
+        height: 67rem;
         margin-left: 10px;
     }
 }

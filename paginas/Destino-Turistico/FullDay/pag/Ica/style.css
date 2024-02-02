@@ -9,7 +9,7 @@
 }
 
 body{
-    background: url(img/bg2.avif) no-repeat;
+    background: url() no-repeat;
     background-size: cover;
     background-position: center;
     overflow-x: hidden;
@@ -808,12 +808,17 @@ header .navigation .menu{
 @media (max-width: 426px) {
     .info-text fieldset:nth-child(5) {
         width: 370px;
-        height: 72rem;
+        height: 65rem;
         margin-top: 1rem;
     }
 
-    .info-text fieldset:nth-child(2) {
+    .info-text fieldset:nth-child(1){
         margin-top: -8rem;
+        height: 14rem;
+    }
+
+    .info-text fieldset:nth-child(2) {
+        margin-top: -11rem;
     }
 
     .info-text fieldset:nth-child(1),.info-text fieldset:nth-child(2),.info-text fieldset:nth-child(3),
@@ -831,14 +836,14 @@ header .navigation .menu{
     .info-text fieldset:nth-child(1) {
         width: 320px;
         height: 14rem;
-        margin: 0 0 0 10px;
+        margin: -9rem 0 0 10px;
     }
 
     .info-text fieldset:nth-child(2) {
         width: 320px;
         height: 32rem;
         margin-left: 10px;
-        margin-top: -9rem;
+        margin-top: -13rem;
     }
 
     .info-text fieldset:nth-child(3) {
@@ -855,7 +860,7 @@ header .navigation .menu{
 
     .info-text fieldset:nth-child(5) {
         width: 320px;
-        height: 84rem;
+        height: 71rem;
         margin-left: 10px;
     }
 }
