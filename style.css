@@ -557,6 +557,10 @@ header .navigation .menu{
         flex-wrap: wrap;
     }
 
+    .inner-service{
+        margin: 0 a;
+    }
+
     .inner-icons img{
         width: 50px;
         padding: 0.2rem 0;
@@ -598,6 +602,7 @@ header .navigation .menu{
     grid-gap: 30px;
     align-items: center;
     justify-items: center;
+    margin: 0 auto;
 }
 
 .grid >article{
@@ -670,6 +675,7 @@ header .navigation .menu{
 @media (max-width: 783px){
     .grid{
         grid-template-columns: repeat(1,1fr);
+        margin: 0 auto;
     }
 
     .grid > article{
@@ -678,11 +684,14 @@ header .navigation .menu{
 }
 
 @media (max-width: 420px){
+    .grid{
+        margin: 0 auto;
+    }
+
     .grid > article{
         text-align: center;
         width: 300px;
         height: 440px;
-        margin-left: -1rem;
     }
 
     .text p{
@@ -692,9 +701,13 @@ header .navigation .menu{
     }
 }
 
-@media (max-width: 320px){
-    .grid > article{
-        margin-left: -1.8rem;
+@media (max-width: 355px){
+    .grid>article{
+        margin: 0 auto;
+    }
+
+    .banner .conten h3{
+        font-size: 2.5rem;
     }
 }
 
