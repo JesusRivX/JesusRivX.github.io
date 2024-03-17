@@ -449,11 +449,29 @@ header .navigation .menu{
     .bg {
         height: 45vh;
     }
-}
 
-@media (max-width: 376px){
     .bg .text{
         margin-top: 50px;
+    }
+}
+
+@media (max-width: 390px){
+    .bg .text{
+        margin-top: 50px;
+    }
+
+    .bg .text h1, h2{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 342px){
+    .bg .text h1{
+        font-size: 1rem;
+    }
+
+    .bg .text h2{
+        font-size: 1.5rem;
     }
 }
 
@@ -744,12 +762,12 @@ header .navigation .menu{
     }
 
     .info-text fieldset:nth-child(5) {
-        height: 34rem;
+        height: 44rem;
         width: 50rem;
     }
 }
 
-@media (max-width: 1024px) and (min-width: 588px){
+@media (max-width: 1024px){
 
     .info-text {
         display: grid;
