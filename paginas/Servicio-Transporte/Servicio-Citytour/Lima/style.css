@@ -744,12 +744,12 @@ header .navigation .menu{
     }
 
     .info-text fieldset:nth-child(5) {
-        height: 34rem;
+        height: 39rem;
         width: 50rem;
     }
 }
 
-@media (max-width: 1024px) and (min-width: 588px){
+@media (max-width: 1024px){
 
     .info-text {
         display: grid;
