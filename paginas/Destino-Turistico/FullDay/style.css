@@ -183,6 +183,178 @@ header .navigation .menu{
     display: none;
 }
 
+@media (max-width: 978px ) and (min-width: 768px) {
+    header .navigation .menu{
+        font-size: 0.9em;
+        position: fixed;
+        display: block;
+        background: #fff;
+        min-width: 350px;
+        height: 100vh;
+        top: 0;
+        right: -100%;
+        padding: 50px;
+        visibility: hidden;
+        overflow-y: auto;
+        transition: 0.5s;
+        transition-property: right, visibility;
+    }
+    header .navigation .menu.active{
+        right: 0;
+        visibility: visible;
+    }
+    .menu-item{
+        position: relative;
+    }
+    .menu-item .sub-menu{
+        opacity: 1;
+        position: relative;
+        top: 0;
+        transform: translateX(10px);
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 5px;
+        overflow: hidden;
+        display: none;
+    }
+    .menu-item:hover .sub-menu{
+        transform: translateX(10px);
+    }
+    .menu-item .sub-menu .sub-item{
+        box-shadow: none;
+    }
+    .menu-item .sub-menu .sub-item:hover{
+        background: none;
+    }
+    .menu-item .sub-menu .sub-item a:hover{
+        color: #4080EF;
+        transition: 0.3s;
+    }
+    /*Green*/
+    .menu-item .sub-menu .sub-item1{
+        box-shadow: none;
+    }
+    .menu-item .sub-menu .sub-item1:hover{
+        background: none;
+    }
+    .menu-item .sub-menu .sub-item1 a:hover{
+        color: #36CF61;
+        transition: 0.3s;
+    }
+    /*--------*/
+    .close-btn{
+        position: absolute;
+        background: url(./close.png)no-repeat;
+        width: 40px;
+        height: 40px;
+        background-size: 25px;
+        background-position: center;
+        top: 0;
+        left: 0;
+        margin: 25px;
+        cursor: pointer;
+
+    }
+    .menu-btn{
+        background: url(./menu.png)no-repeat;
+        width: 40px;
+        height: 40px;
+        background-size: 30px;
+        background-position: center;
+        cursor: pointer;
+        display: block;
+    }
+    header{
+        padding: 15px 20px;
+    }
+}
+
+@media (max-width: 768px ) {
+    header .navigation .menu{
+        font-size: 0.9em;
+        position: fixed;
+        display: block;
+        background: #fff;
+        min-width: 350px;
+        height: 100vh;
+        top: 0;
+        right: -100%;
+        padding: 50px;
+        visibility: hidden;
+        overflow-y: auto;
+        transition: 0.5s;
+        transition-property: right, visibility;
+    }
+
+    header .navigation .menu.active{
+        right: 0;
+        visibility: visible;
+    }
+    .menu-item{
+        position: relative;
+    }
+    .menu-item .sub-menu{
+        opacity: 1;
+        position: relative;
+        top: 0;
+        transform: translateX(10px);
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 5px;
+        overflow: hidden;
+        display: none;
+    }
+    .menu-item:hover .sub-menu{
+        transform: translateX(10px);
+    }
+    .menu-item .sub-menu .sub-item{
+        box-shadow: none;
+    }
+    .menu-item .sub-menu .sub-item:hover{
+        background: none;
+    }
+    .menu-item .sub-menu .sub-item a:hover{
+        color: #4080EF;
+        transition: 0.3s;
+    }
+    /*Green*/
+    .menu-item .sub-menu .sub-item1{
+        box-shadow: none;
+    }
+    .menu-item .sub-menu .sub-item1:hover{
+        background: none;
+    }
+    .menu-item .sub-menu .sub-item1 a:hover{
+        color: #36CF61;
+        transition: 0.3s;
+    }
+    /*--------*/
+    .close-btn{
+        position: absolute;
+        background: url(./close.png)no-repeat;
+        width: 40px;
+        height: 40px;
+        background-size: 25px;
+        background-position: center;
+        top: 0;
+        left: 0;
+        margin: 25px;
+        cursor: pointer;
+
+    }
+    .menu-btn{
+        background: url(./menu.png)no-repeat;
+        width: 40px;
+        height: 40px;
+        background-size: 30px;
+        background-position: center;
+        cursor: pointer;
+        display: block;
+    }
+    header{
+        padding: 15px 20px;
+    }
+}
+
+
 .bg_image_section{
     width: 100%;
     height: 40vh;
@@ -747,102 +919,7 @@ footer{
 }
 
 @media (max-width: 975px ) and (min-width: 768px) {
-    header .navigation .menu{
-        font-size: 0.9em;
-        position: fixed;
-        display: block;
-        background: #fff;
-        min-width: 350px;
-        height: 100vh;
-        top: 0;
-        right: -100%;
-        padding: 50px;
-        visibility: hidden;
-        overflow-y: auto;
-        transition: 0.5s;
-        transition-property: right, visibility;
-    }
-
-    header .navigation .menu.active{
-        right: 0;
-        visibility: visible;
-    }
-
-    .menu-item{
-        position: relative;
-    }
-
-    .menu-item .sub-menu{
-        opacity: 1;
-        position: relative;
-        top: 0;
-        transform: translateX(10px);
-        background: rgba(255, 255, 255, 0.1);
-        border-radius: 5px;
-        overflow: hidden;
-        display: none;
-    }
-
-    .menu-item:hover .sub-menu{
-        transform: translateX(10px);
-    }
-
-    .menu-item .sub-menu .sub-item{
-        box-shadow: none;
-    }
-
-    .menu-item .sub-menu .sub-item:hover{
-        background: none;
-    }
-
-    .menu-item .sub-menu .sub-item a:hover{
-        color: #4080EF;
-        transition: 0.3s;
-    }
-
-    /*Green*/
-    .menu-item .sub-menu .sub-item1{
-        box-shadow: none;
-    }
-
-    .menu-item .sub-menu .sub-item1:hover{
-        background: none;
-    }
-
-    .menu-item .sub-menu .sub-item1 a:hover{
-        color: #36CF61;
-        transition: 0.3s;
-    }
-    /*--------*/
-
-    .close-btn{
-        position: absolute;
-        background: url(./close.png)no-repeat;
-        width: 40px;
-        height: 40px;
-        background-size: 25px;
-        background-position: center;
-        top: 0;
-        left: 0;
-        margin: 25px;
-        cursor: pointer;
-
-    }
-
-    .menu-btn{
-        background: url(./menu.png)no-repeat;
-        width: 40px;
-        height: 40px;
-        background-size: 30px;
-        background-position: center;
-        cursor: pointer;
-        display: block;
-    }
     
-    header{
-        padding: 15px 20px;
-    }
-
     .text_section {
         font-size: 4rem;
         line-height: 5.5rem;
@@ -896,102 +973,7 @@ footer{
 }
 
 @media (max-width: 768px ) {
-    header .navigation .menu{
-        font-size: 0.9em;
-        position: fixed;
-        display: block;
-        background: #fff;
-        min-width: 350px;
-        height: 100vh;
-        top: 0;
-        right: -100%;
-        padding: 50px;
-        visibility: hidden;
-        overflow-y: auto;
-        transition: 0.5s;
-        transition-property: right, visibility;
-    }
-
-    header .navigation .menu.active{
-        right: 0;
-        visibility: visible;
-    }
-
-    .menu-item{
-        position: relative;
-    }
-
-    .menu-item .sub-menu{
-        opacity: 1;
-        position: relative;
-        top: 0;
-        transform: translateX(10px);
-        background: rgba(255, 255, 255, 0.1);
-        border-radius: 5px;
-        overflow: hidden;
-        display: none;
-    }
-
-    .menu-item:hover .sub-menu{
-        transform: translateX(10px);
-    }
-
-    .menu-item .sub-menu .sub-item{
-        box-shadow: none;
-    }
-
-    .menu-item .sub-menu .sub-item:hover{
-        background: none;
-    }
-
-    .menu-item .sub-menu .sub-item a:hover{
-        color: #4080EF;
-        transition: 0.3s;
-    }
-
-    /*Green*/
-    .menu-item .sub-menu .sub-item1{
-        box-shadow: none;
-    }
-
-    .menu-item .sub-menu .sub-item1:hover{
-        background: none;
-    }
-
-    .menu-item .sub-menu .sub-item1 a:hover{
-        color: #36CF61;
-        transition: 0.3s;
-    }
-    /*--------*/
-
-    .close-btn{
-        position: absolute;
-        background: url(./close.png)no-repeat;
-        width: 40px;
-        height: 40px;
-        background-size: 25px;
-        background-position: center;
-        top: 0;
-        left: 0;
-        margin: 25px;
-        cursor: pointer;
-
-    }
-
-    .menu-btn{
-        background: url(./menu.png)no-repeat;
-        width: 40px;
-        height: 40px;
-        background-size: 30px;
-        background-position: center;
-        cursor: pointer;
-        display: block;
-    }
     
-    header{
-        padding: 15px 20px;
-    }
-
     .text_section {
         font-size: 3rem;
         line-height: 4.5rem;
